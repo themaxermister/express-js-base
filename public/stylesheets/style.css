@@ -1,0 +1,47 @@
+/* General */
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* Header - Nav */
+header, .navbar{
+  display: inline;
+  max-width: 100%;
+  padding: 0 !important;
+}
+
+#navbarNav{
+  margin: 20px;
+}
+
+#navbarNav > ul > li > a {
+  font-size: larger;
+}
+
+#navbarSupportedContent{
+  padding: 20px;
+  background-color: black;
+}
+
+#navbarSupportedContent a{
+  font-size: 20px;
+  color: white;
+}
+
+/* Main */
+#main{
+  padding: 10px 50px;
+}
